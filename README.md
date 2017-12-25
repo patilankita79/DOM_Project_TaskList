@@ -44,16 +44,15 @@ The purpose of this project is to explore the DOM, localStorage, event delegatio
   <strong>Example in the project:</strong> I have used event delegation in the function which deals with <strong>deleting/removing the task</strong> from the list of tasks.
   If we look at the UI code, then we have all the tasks which will be inside <strong>ul tag</strong> as <strong>li tag</strong>. Now, if I want to remove the item, I will click on x icon (the <strong>i tag</strong> has the class of delete-item) and since the tasks are dynamic and multiple (as more tasks will be added), we need to use event delegation.
   
-2. <strong>innerHTML vs removeChild</strong>
-  Refer: https://jsperf.com/innerhtml-vs-removechild
-  removeChild() is relatively faster than innerHTML
+2. <strong>innerHTML vs removeChild:</strong>
+  removeChild() is relatively faster than innerHTML. It is used in order to clear the tasks from DOM.
   
-3. I have used keyup event in order to provide the functionality of filtering the tasks as you type. The keyup event occurs when a keyboard key is released.
+3. I have used <strong>keyup event</strong> in order to provide the functionality of filtering the tasks as you type. The keyup event occurs when a keyboard key is released.
 
 <br>
 <hr>
 
 ### Reference
 
-<a href="http://materializecss.com/">Materialize CSS </a>
-<a href="https://jsperf.com/innerhtml-vs-removechild">innerHTML vs removeChild</a>
+1. <a href="http://materializecss.com/">Materialize CSS </a>
+2. <a href="https://jsperf.com/innerhtml-vs-removechild">innerHTML vs removeChild</a>
