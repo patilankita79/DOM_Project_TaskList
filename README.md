@@ -32,9 +32,9 @@ The purpose of this project is to explore the DOM, localStorage, event delegatio
 
 ### Approach
 
-1. UI (used Materialize CSS) and add task items (restricted to DOM)
-2. Delete and filter the tasks (restricted to DOM)
-3. Persist the task to localStorage, so that application stays in same state even if reload the page, leave and come back. Remove the task from localStorage, clearing all the tasks in localStorage
+<strong>Step 1.</strong> &nbsp; UI (used Materialize CSS) and add task items (restricted to DOM)<br>
+<strong>Step 2.</strong> &nbsp; Delete and filter the tasks (restricted to DOM)<br>
+<strong>Step 3.</strong> &nbsp; Persist the task to localStorage, so that application stays in same state even if reload the page, leave and come &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; back. Remove the task from localStorage, clearing all the tasks in localStorage
 
 <hr>
 
